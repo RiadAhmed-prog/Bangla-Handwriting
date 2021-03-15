@@ -112,7 +112,8 @@ def k():
     print("ঔ")
     global quality_model 
     quality_model = tf.keras.models.load_model("k_vgg16_model.h5")
-    quality_assessment()    
+    quality_assessment()
+    
 
 
 def switch(letter_index):
